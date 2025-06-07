@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grid 7 </title>
+    <title>grid 8 </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -15,91 +15,73 @@
             margin-top: 50px;
             height: 80vh;
             display: grid;
-            grid-template-columns: 30% 30% 30%;
-            grid-template-rows: 11% 33% 27% 18%;
+            grid-template-columns: 23% 33% 33%;
+            grid-template-rows: 10% 30% 30% 20%;
             gap: 15px;
             justify-content: center;
+            text-align: center;
+            color: white;
         }
 
         .box1 {
             grid-column: 1 / span 3;
             grid-row: 1 / span 1;
-            background-color: bisque;
+            background-color: rgb(84, 38, 139);
         }
 
         .box2 {
             grid-column: 1 / span 1;
             grid-row: 2 / span 2;
-            background-color: rgb(29, 179, 202);
+            background-color: rgb(2, 245, 184);
         }
 
         .box3 {
-            grid-column: 1 / span 1;
-            grid-row: 4 / span 1;
-            background-color: rgb(232, 200, 160);
-            /* z-index: 999; */
+            grid-column: 2 / span 2;
+            grid-row: 2 / span 1;
+            background-color: rgb(87, 102, 169);
         }
 
         .box4 {
-            grid-column: 2 / span 2;
-            grid-row: 2 / span 1;
-            background-color: rgb(182, 209, 27);
+            grid-column: 2 / span 1;
+            grid-row: 3 / span 1;
+            background-color: rgb(87, 102, 169);
         }
 
         .box5 {
-            grid-column: 2 / span 1;
+            grid-column: 3 / span 1;
             grid-row: 3 / span 1;
-            background-color: rgb(188, 105, 46);
+            background-color: rgb(87, 102, 169);
         }
 
         .box6 {
-            grid-column: 2 / span 1;
+            grid-column: 1 / span 3;
             grid-row: 4 / span 1;
-            background-color: rgb(151, 130, 116);
+            background-color: rgb(84, 38, 139);
         }
-
-        .box7 {
-            grid-column: 3 / span 1;
-            grid-row: 3 / span 1;
-            background-color: rgb(91, 142, 57);
-        }
-
-        .box8 {
-            grid-column: 3 / span 1;
-            grid-row: 4 / span 1;
-            background-color: rgb(190, 94, 176);
-        }
-
     </style>
 </head>
 
 <body>
-    <h1 style="text-align: center;margin-top: 10px;"> Grid Practice 7</h1>
+    <h1 style="text-align: center;margin-top: 10px;"> Grid Practice 9</h1>
     <div class="container">
         <div class="grid_main">
             <div class="box box1">
-                1
+                header
             </div>
             <div class="box box2">
-                2
+                sidebar
             </div>
             <div class="box box3">
-                3
+                Content-1
             </div>
             <div class="box box4">
-                4
+                Content-2
             </div>
             <div class="box box5">
-                5
+                Content-3
             </div>
             <div class="box box6">
-                6
-            </div>
-            <div class="box box7">
-                7
-            </div>
-            <div class="box box8">
-                8
+                footer
             </div>
         </div>
     </div>
