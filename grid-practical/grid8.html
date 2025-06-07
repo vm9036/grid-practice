@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid 8 </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        .grid_main {
+            background-color: white;
+            margin-top: 50px;
+            height: 80vh;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            grid-template-rows: 30% 30% 30%;
+            gap: 15px;
+            justify-content: center;
+            text-align: center;
+            /* grid-template-columns: 20% 8% 12% 4% 20% 20%; */
+            /* grid-template-rows: 25% 5% 10% 15% 20%; */
+        }
+
+        .box1 {
+            grid-column: 1 / span 1;
+            grid-row: 1 / span 2;
+            background-color: rgb(255, 0, 217);
+        }
+
+        .box2 {
+            grid-column: 2 / span 1;
+            grid-row: 1 / span 2;
+            background-color: rgb(255, 0, 217);
+        }
+
+        .box3 {
+            grid-column: 3 / span 1;
+            grid-row: 1 / span 1;
+            background-color: rgb(255, 0, 217);
+
+        }
+
+        .box4 {
+            grid-column: 3 / span 1;
+            grid-row: 2 / span 1;
+            background-color: rgb(252, 244, 0);
+        }
+
+        .box5 {
+            grid-column: 1 / span 1;
+            grid-row: 3 / span 1;
+            background-color: rgb(255, 0, 217);
+        }
+
+        .box6 {
+            grid-column: 2 / span 1;
+            grid-row: 3 / span 1;
+            background-color: rgb(255, 0, 217);
+        }
+
+        .box7 {
+            grid-column: 3 / span 1;
+            grid-row: 3 / span 1;
+            background-color: rgb(255, 0, 217);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;margin-top: 10px;"> Grid Practice 8</h1>
+    <div class="container">
+        <div class="grid_main">
+            <div class="box box1">
+                1
+            </div>
+            <div class="box box2">
+                2
+            </div>
+            <div class="box box3">
+                3
+            </div>
+            <div class="box box4">
+                4
+            </div>
+            <div class="box box5">
+                5
+            </div>
+            <div class="box box6">
+                6
+            </div>
+            <div class="box box7">
+                7
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
